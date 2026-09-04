@@ -115,13 +115,13 @@ export default function AboutPage() {
                   Who We Are
                 </div>
                 <h2 id="about-story-heading" className="font-heading text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
-                  Simplifying enterprise mobility for modern organizations.
+                  Simplifying enterprise mobility with proven on-road experience.
                 </h2>
                 <p className="text-slate-600 leading-relaxed text-lg mb-5">
-                  Saachi Logistics was founded to solve a critical operational challenge: ensuring employees reach work and return home safely, comfortably, and on time. 
+                  Built 2 years ago under the vision of our CEO, Saachi Logistics was founded to solve a critical operational challenge: ensuring employees reach work and return home safely, comfortably, and on time. 
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
-                  We specialize exclusively in daily employee commute solutions. By focusing entirely on corporate transportation, we have refined our processes, driver training, and fleet management to perfectly align with the strict requirements of IT companies and enterprises.
+                  Backed by 2 years of robust on-road experience, we specialize exclusively in daily employee commute solutions. By focusing entirely on corporate transportation, we have refined our processes, driver training, and fleet management to perfectly align with the strict requirements of IT companies and enterprises.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
