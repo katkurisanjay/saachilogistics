@@ -72,20 +72,8 @@ export default function Navbar() {
               ))}
             </nav>
 
-            {/* Desktop right side: phone + CTA */}
+            {/* Desktop right side: CTA */}
             <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
-              {/* Professional phone pill */}
-              <a
-                href="tel:9908150290"
-                className="flex items-center gap-2 text-slate-700 text-sm font-medium hover:text-[#0284C7] transition-colors"
-                aria-label="Call Saachi Logistics"
-              >
-                <span className="w-7 h-7 rounded-full bg-[#EFF6FF] flex items-center justify-center">
-                  <Phone size={13} className="text-[#0284C7]" />
-                </span>
-                <span className="hidden xl:block">+91 99081 50290</span>
-              </a>
-              <div className="w-px h-5 bg-slate-200" />
               <Link to="/contact" className="btn-primary !min-h-[38px] !py-2 !px-4 !text-sm">
                 Get a Quote
               </Link>
