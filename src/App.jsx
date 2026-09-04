@@ -3,6 +3,7 @@ import { Suspense, lazy } from 'react'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
+import ScrollToTop from './components/ui/ScrollToTop'
 
 // Lazy load pages for performance
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -42,6 +43,7 @@ function NotFound() {
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       {/* Scroll to top on route change */}
       <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] btn-primary text-sm">
         Skip to main content
